@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
 import Nav from "../nav/Nav";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { useSpring } from "react-spring";
-import { animated, useInView } from "@react-spring/web";
+import { animated } from "@react-spring/web";
 
 import "./Home.scss";
 
@@ -42,7 +42,7 @@ function Home() {
                             </h1>
                         </animated.div>
                         <div className="down-arrow">
-                            <MdArrowDownward />
+                            <MdArrowDownward style={{ color: "#fff" }} />
                         </div>
                         <video
                             className="video"
@@ -208,6 +208,114 @@ function Home() {
                                         Interview Preparation
                                     </li>
                                 </ul>
+                            </div>
+                        </div>
+
+                        <div className="comparison-mobile mobile">
+                            <div className="institute-titles">
+                                <h1 id="traditional-title">
+                                    Tranditional B.Tech CSE
+                                </h1>
+                                <h1 id="isuxlu-title">ISU x Letsupgrade</h1>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Curriculum</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>Outdated</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>
+                                            Get ready for 2027 & beyond with a
+                                            real-world curriculum
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Instructor</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>No Industry Experience</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>
+                                            Working for top tech companies
+                                            including MAANG
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Internship</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>Internships aren't supported</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>Multiple paid internship must</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Job Role</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>Junior SDE</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>Senior SDE</h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Soft skills</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>1 outdated Subject</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>
+                                            Every Semester 100 Hours for
+                                            softskills program
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Entrepreneurship</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>Maybe 1-2 seminars</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>
+                                            A 60-hour credit with a pitch to VCs
+                                            as the final step
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="card">
+                                <h1 className="title">Placement</h1>
+                                <div className="content">
+                                    <div className="tranditional">
+                                        <h1>No dedicated Track</h1>
+                                    </div>
+                                    <div className="isuxlu">
+                                        <h1>
+                                            350+ Hours of dedicated Revision,
+                                            and Interview Preparation
+                                        </h1>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </ParallaxLayer>

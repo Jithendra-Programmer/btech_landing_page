@@ -30,11 +30,46 @@ function Nav() {
             </nav>
             <div className="links">
                 <ul>
-                    <li>Placements</li>
-                    <li>OUR's-vs-Traditional</li>
-                    <li>curriculum</li>
-                    <li>Compus</li>
-                    <li>Admission Process</li>
+                    <li>
+                        <Link
+                            to="https://isu.ac.in/B-Tech-CSE/"
+                            target="_blanck"
+                        >
+                            Placements
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="https://isu.ac.in/B-Tech-CSE/"
+                            target="_blanck"
+                        >
+                            OUR's-vs-Traditional
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="https://isu.ac.in/B-Tech-CSE/"
+                            target="_blanck"
+                        >
+                            curriculum
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="https://isu.ac.in/B-Tech-CSE/"
+                            target="_blanck"
+                        >
+                            Compus
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="https://isu.ac.in/B-Tech-CSE/"
+                            target="_blanck"
+                        >
+                            Admission Process
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </div>
