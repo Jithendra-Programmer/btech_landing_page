@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+.mobile {
+    display: none;
+}
+
 .section-1 {
     display: flex;
     justify-content: center;
@@ -342,6 +346,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
     .section-1 {
         .container {
             .title {
@@ -374,6 +381,30 @@
             .data {
                 width: 100%;
                 margin-top: 20px;
+            }
+        }
+    }
+
+    .curriculum-section {
+        .title {
+            h1 {
+                font-size: 14px !important;
+                padding: 5px 15px;
+            }
+        }
+
+        .container {
+            width: 100%;
+            .years {
+                .sem {
+                    padding: 2px 5px;
+                    .sem-title {
+                        font-size: 8px !important;
+                    }
+                    .image {
+                        width: 150px;
+                    }
+                }
             }
         }
     }
