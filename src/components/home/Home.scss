@@ -249,6 +249,7 @@
         }
     }
 }
+
 .our-campus-footer-container {
     position: relative;
     .our-campus-section {
@@ -337,5 +338,73 @@
         font-size: 14px;
         font-family: sans-serif;
         padding: 10px 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-1 {
+        .container {
+            .title {
+                font-size: 30px;
+                letter-spacing: 2px;
+            }
+        }
+        .video {
+            transform: scale(2);
+        }
+    }
+
+    .placements-section {
+        .title-container {
+            .title {
+                font-size: 16px;
+                border-radius: 0px;
+            }
+        }
+        .container {
+            flex-direction: column;
+            .placements-points {
+                width: 100%;
+                ul {
+                    li {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .data {
+                width: 100%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .our-campus-footer-container {
+        height: auto !important;
+        .our-campus-section {
+            .title {
+                width: 100%;
+                border-radius: 0px;
+                h1 {
+                    font-size: 16px;
+                }
+            }
+            .container {
+                margin-top: 10px;
+                flex-direction: column;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .card {
+                    width: 80%;
+                    margin-top: 10px;
+                    .details {
+                        padding: 0px 20px;
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

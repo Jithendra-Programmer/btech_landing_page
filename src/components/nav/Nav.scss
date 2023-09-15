@@ -68,3 +68,33 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-container {
+        width: 100%;
+        border-radius: 0px;
+        left: 0px;
+        background-color: #fff;
+        .nav {
+            .nav-logo-container {
+                width: 40%;
+            }
+            .nav-links-container {
+                .apply-now-btn {
+                    padding: 5px 10px !important;
+                    font-size: 14px !important;
+                }
+            }
+        }
+
+        .links {
+            ul {
+                justify-content: space-evenly;
+                li {
+                    padding: 2px 0px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
