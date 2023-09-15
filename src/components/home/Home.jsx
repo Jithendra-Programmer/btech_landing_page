@@ -10,10 +10,10 @@ import { MdArrowDownward } from "react-icons/md";
 import video from "../../assets/herovideo.mp4";
 
 function Home() {
-    window.addEventListener("scroll", function (e) {
-        // This will show our scroll position in the console
-        console.log(window.scrollY);
-    });
+    // window.addEventListener("scroll", function (e) {
+    //     // This will show our scroll position in the console
+    //     console.log(window.scrollY);
+    // });
     return (
         <>
             <Nav />
